@@ -1,4 +1,4 @@
-body{
+.bodies{
     text-align: center;
 }
 #courseTable{
@@ -33,7 +33,7 @@ body{
 }
 
 .courseTableRow:nth-child(odd){
-	background-color:gray;
+	background-color:rgb(223, 238, 157);
 	}
 .courseTableRow:nth-child(even){
     background-color:aquamarine;
@@ -41,4 +41,8 @@ body{
 .courseTableHead{
     background-color:yellowgreen;
    
+}
+hr.featurette-divider{
+    margin-top: 40px;
+    margin-bottom: 30px;
 }

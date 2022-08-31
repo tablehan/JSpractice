@@ -11,10 +11,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="psytest_03/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+    <link href="youtube_05/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="#"/>
   </head>
   <body>
 
@@ -36,15 +37,17 @@
           <li class="nav-item">
             <a class="nav-link" href="Club.html">Club<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="psytest.html">PsyTest<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Canvas.html">SimpleRPG<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="youtubeLoop.html">YTLooper<span class="sr-only">(current)</span></a>
-          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="psytest.html">PsyTest<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Canvas.html">SimpleRPG<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="youtubeLoop.html">YTLooper<span class="sr-only">(current)</span></a>
+        </li>
+
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Disabled</a>
             </li>
@@ -61,25 +64,19 @@
 
 
       <div class="container marketing">
-
-
-
         <hr class="featurette-divider">
-        <body class="bodies">
-          <h1 class="psy05">你今年的愛情是什麼滋味?</h1>
-          <div>
-              <h2 class="psy05" id="questions"></h2>
-              <div id="options" class="psy05"></div>
-          </div>
-          <input id="startButton" type="button" value="開始作答">
-  
-          <!-- <script  src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
-          <script  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-          <script src="psytest_03/data.js"></script>
-          <script src="psytest_03/main.js"></script>
-         
-      </body>
-    
+      <body class="bodies">
+        <h1>Youtube點唱機</h1>
+        <h2 class='filmTitle'></h2>
+        <div id="player"></div>
+        <br>
+        <input id="playButton" type="button" value="Play">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src="youtube_05/playList.js"></script>
+        <script src="youtube_05/main.js"></script>
+    </body>
         <hr class="featurette-divider">
 
 

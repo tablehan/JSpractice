@@ -1,4 +1,4 @@
-body{
+.bodies{
     text-align: center;
 }
 .psy05{
@@ -6,4 +6,8 @@ body{
 }
 .opt{
     border-left:2px;
+}
+hr.featurette-divider{
+    margin-top: 40px;
+    margin-bottom: 30px;
 }

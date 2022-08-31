@@ -17,9 +17,9 @@ $(function(){
                     "y":0
     };
     let sources = {
-        imgMain:'images/spriteSheet.png',
-        imgMountain:'images/material.png',
-        imgEnemy:'images/Enemy.png'
+        imgMain:'canvas_04/images/spriteSheet.png',
+        imgMountain:'canvas_04/images/material.png',
+        imgEnemy:'canvas_04/images/Enemy.png'
     }
     loadImages(sources,function(images){
         ctx.drawImage(images.imgMain,0,0,80,130,currentImgMain.x,currentImgMain.y,gridLength,gridLength);
@@ -43,9 +43,11 @@ $(function(){
     
         // 避免鍵盤預設行為發生，例如捲動/放大/換頁
         event.preventDefault(); 
-        console.log(event.code); // event.code紀錄各種鍵盤輸入
+        console.log(event.originalEvent.code); // event.code紀錄各種鍵盤輸入
+        console.log(event);
+        
     
-        switch(event.code){
+        switch(event.originalEvent.code){
         case "ArrowLeft":
             targetImg.x=currentImgMain.x-gridLength;
             targetImg.y=currentImgMain.y;
