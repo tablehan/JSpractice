@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+.foodList{
+    text-align: left;
+}
+#imgchow{
+   width: 350px;
+   height:300px;
+}

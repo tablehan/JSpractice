@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+#courseTable{
+    width: 60%;
+    margin:auto;
+    font-size:1.5em;
+}
+.courseTableCell{
+    border-bottom: 1px solid blue;
+    
+}
+#clubHead{
+    margin:auto;
+
+}
+
+.club02{
+    padding-top: 10px;
+    text-align: center;
+    font-size:1.2em;
+    
+    
+}
+#inputDate{
+    font-size:1.2em;
+    margin-bottom: 10px;
+    
+}
+
+.courseTableRow{
+    color:black;
+}
+
+.courseTableRow:nth-child(odd){
+	background-color:gray;
+	}
+.courseTableRow:nth-child(even){
+    background-color:aquamarine;
+    }
+.courseTableHead{
+    background-color:yellowgreen;
+   
+}
